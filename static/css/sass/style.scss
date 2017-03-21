@@ -1,0 +1,38 @@
+@import "header";
+
+header {
+    background-color: $header-color;
+    text-align: $header-align;
+    h1 {
+        color: $header-titles;
+    }
+    p {
+        color: $header-titles;
+    }
+    button {
+        background-color: $header-button;
+        color: $header-titles;
+    }
+}
+
+@import "footer";
+
+footer {
+    background-color: $primary-color;
+    h3 {
+        color: $titles-color;
+    }
+    li {
+        color: $nav-color;
+    }
+}
+
+.flex-container {
+    display: $footer-display;
+    justify-content: $components-flex;
+
+}
+
+li {
+    list-style: none;
+}
