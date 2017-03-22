@@ -1,6 +1,24 @@
 header {
   background-color: #281400;
   text-align: center; }
+  header .navbar-default {
+    background-color: #281400;
+    border: 0;
+    text-transform: capitalize; }
+  header .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+  header .navbar-nav {
+    width: 100%;
+    text-align: center; }
+    header .navbar-nav > li {
+      float: none;
+      display: inline-block; }
+  header .navbar .navbar-collapse {
+    text-align: center; }
+  header li {
+    font-size: 2em; }
   header h1 {
     color: white;
     text-transform: uppercase;
