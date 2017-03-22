@@ -5,13 +5,18 @@ header {
     text-align: $header-align;
     h1 {
         color: $header-titles;
+        text-transform: uppercase;
     }
     p {
         color: $header-titles;
     }
-    button {
+    p::first-letter {
+        text-transform: uppercase;
+    }
+    .tocatalog {
         background-color: $header-button;
         color: $header-titles;
+        text-transform: uppercase;
         padding: 0.5em;
         margin: 2em;
     }
@@ -25,7 +30,7 @@ main {
         flex-wrap: wrap;
         article{
             padding: 1.9em;
-            #status {
+            .status {
                 text-transform: uppercase;
             }
             p, h4 {
@@ -35,6 +40,7 @@ main {
     }
     h2 {
         text-align: center;
+        text-transform: capitalize;
         padding-bottom: 1em;
     }
 }
@@ -43,16 +49,33 @@ main {
 footer {
     background-color: $primary-color;
     text-align: center;
+    nav {
+        padding-bottom: 2em;
+    }
     h4 {
         color: $titles-color;
         text-transform: capitalize;
+        text-align: left;
     }
     li {
         color: $nav-color;
+        text-align: left;
+        padding: 0.5em;
     }
     button {
         background-color: $primary-color;
         color: $titles-color;
+    }
+    #quicklinks, #socialnav {
+        li {
+            text-transform: capitalize;
+        }
+    }
+    i {
+        padding-right: 0.5em;
+    }
+    section {
+        text-align: left;
     }
 }
 

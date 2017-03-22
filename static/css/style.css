@@ -2,12 +2,16 @@ header {
   background-color: #281400;
   text-align: center; }
   header h1 {
-    color: white; }
+    color: white;
+    text-transform: uppercase; }
   header p {
     color: white; }
-  header button {
+  header p::first-letter {
+    text-transform: uppercase; }
+  header .tocatalog {
     background-color: #a28f61;
     color: white;
+    text-transform: uppercase;
     padding: 0.5em;
     margin: 2em; }
 
@@ -21,25 +25,37 @@ main .container {
   flex-wrap: wrap; }
   main .container article {
     padding: 1.9em; }
-    main .container article #status {
+    main .container article .status {
       text-transform: uppercase; }
     main .container article p, main .container article h4 {
       text-transform: capitalize; }
 main h2 {
   text-align: center;
+  text-transform: capitalize;
   padding-bottom: 1em; }
 
 footer {
   background-color: #0f3e57;
   text-align: center; }
+  footer nav {
+    padding-bottom: 2em; }
   footer h4 {
     color: white;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    text-align: left; }
   footer li {
-    color: #4e6a78; }
+    color: #4e6a78;
+    text-align: left;
+    padding: 0.5em; }
   footer button {
     background-color: #0f3e57;
     color: white; }
+  footer #quicklinks li, footer #socialnav li {
+    text-transform: capitalize; }
+  footer i {
+    padding-right: 0.5em; }
+  footer section {
+    text-align: left; }
 
 li {
   list-style: none; }
