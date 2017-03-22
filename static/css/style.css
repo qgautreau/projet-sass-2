@@ -7,7 +7,9 @@ header {
     color: white; }
   header button {
     background-color: #a28f61;
-    color: white; }
+    color: white;
+    padding: 0.5em;
+    margin: 2em; }
 
 article {
   display: flex;
@@ -16,13 +18,12 @@ article {
 
 main .container {
   display: flex;
-  flex-wrap: wrap;
-  align-items: stretch; }
+  flex-wrap: wrap; }
   main .container article {
-    padding: 2em; }
-    main .container article p {
+    padding: 1.9em; }
+    main .container article #status {
       text-transform: uppercase; }
-    main .container article h4 {
+    main .container article p, main .container article h4 {
       text-transform: capitalize; }
 main h2 {
   text-align: center;

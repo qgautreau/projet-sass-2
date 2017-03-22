@@ -12,6 +12,8 @@ header {
     button {
         background-color: $header-button;
         color: $header-titles;
+        padding: 0.5em;
+        margin: 2em;
     }
 }
 
@@ -21,13 +23,12 @@ main {
     .container {
         display: flex;
         flex-wrap: wrap;
-        align-items: stretch;
         article{
-            padding: 2em;
-            p {
+            padding: 1.9em;
+            #status {
                 text-transform: uppercase;
             }
-            h4 {
+            p, h4 {
                 text-transform: capitalize;
             }
         }
