@@ -3,9 +3,12 @@ header {
   text-align: center; }
   header h1 {
     color: white;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    font-size: 4em; }
   header p {
-    color: white; }
+    color: white;
+    font-size: 3em; }
   header p::first-letter {
     text-transform: uppercase; }
   header .tocatalog {
@@ -13,7 +16,7 @@ header {
     color: white;
     text-transform: uppercase;
     padding: 0.5em;
-    margin: 2em; }
+    margin: 3em; }
 
 article {
   display: flex;

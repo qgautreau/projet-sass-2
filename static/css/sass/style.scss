@@ -6,9 +6,12 @@ header {
     h1 {
         color: $header-titles;
         text-transform: uppercase;
+        padding-bottom: 1em;
+        font-size: 4em;
     }
     p {
         color: $header-titles;
+        font-size: 3em;
     }
     p::first-letter {
         text-transform: uppercase;
@@ -18,7 +21,7 @@ header {
         color: $header-titles;
         text-transform: uppercase;
         padding: 0.5em;
-        margin: 2em;
+        margin: 3em;
     }
 }
 
