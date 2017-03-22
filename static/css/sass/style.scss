@@ -18,18 +18,23 @@ header {
 @import "main";
 
 main {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        article{
+            padding: 2em;
+            p {
+                text-transform: uppercase;
+            }
+            h4 {
+                text-transform: capitalize;
+            }
+        }
+    }
     h2 {
         text-align: center;
         padding-bottom: 1em;
-    }
-    article{
-        padding-bottom: 1em;
-        p {
-            text-transform: uppercase;
-        }
-        h4 {
-            text-transform: capitalize;
-        }
     }
 }
 @import "footer";
