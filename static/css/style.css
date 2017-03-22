@@ -9,16 +9,24 @@ header {
     background-color: #a28f61;
     color: white; }
 
+article {
+  display: flex;
+  flex-direction: column; }
+
+main p {
+  text-transform: uppercase; }
+main h4 {
+  text-transform: capitalize; }
+
 footer {
   background-color: #0f3e57; }
   footer h3 {
     color: white; }
   footer li {
     color: #4e6a78; }
-
-.flex-container {
-  display: flex;
-  justify-content: space-around; }
+  footer button {
+    background-color: #0f3e57;
+    color: white; }
 
 li {
   list-style: none; }

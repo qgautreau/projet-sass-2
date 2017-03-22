@@ -15,6 +15,16 @@ header {
     }
 }
 
+@import "main";
+
+main {
+    p {
+        text-transform: uppercase;
+    }
+    h4 {
+        text-transform: capitalize;
+    }
+}
 @import "footer";
 
 footer {
@@ -25,12 +35,10 @@ footer {
     li {
         color: $nav-color;
     }
-}
-
-.flex-container {
-    display: $footer-display;
-    justify-content: $components-flex;
-
+    button {
+        background-color: $primary-color;
+        color: $titles-color;
+    }
 }
 
 li {
