@@ -55,12 +55,12 @@ footer {
     h4 {
         color: $titles-color;
         text-transform: capitalize;
-        text-align: left;
     }
     li {
         color: $nav-color;
-        text-align: left;
         padding: 0.5em;
+        padding-left: 0;
+        text-align: left;
     }
     button {
         background-color: $primary-color;

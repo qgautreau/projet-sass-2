@@ -41,12 +41,12 @@ footer {
     padding-bottom: 2em; }
   footer h4 {
     color: white;
-    text-transform: capitalize;
-    text-align: left; }
+    text-transform: capitalize; }
   footer li {
     color: #4e6a78;
-    text-align: left;
-    padding: 0.5em; }
+    padding: 0.5em;
+    padding-left: 0;
+    text-align: left; }
   footer button {
     background-color: #0f3e57;
     color: white; }
