@@ -3,6 +3,7 @@
 header {
     background-color: $header-color;
     text-align: $header-align;
+    height: 30%;
     h1 {
         color: $header-titles;
     }
@@ -18,6 +19,10 @@ header {
 @import "main";
 
 main {
+    height: 45%;
+    h2 {
+        text-align: center;
+    }
     p {
         text-transform: uppercase;
     }
@@ -29,6 +34,8 @@ main {
 
 footer {
     background-color: $primary-color;
+    text-align: center;
+    height: 25%;
     h3 {
         color: $titles-color;
     }

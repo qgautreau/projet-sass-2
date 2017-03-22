@@ -1,6 +1,7 @@
 header {
   background-color: #281400;
-  text-align: center; }
+  text-align: center;
+  height: 30%; }
   header h1 {
     color: white; }
   header p {
@@ -13,13 +14,19 @@ article {
   display: flex;
   flex-direction: column; }
 
-main p {
-  text-transform: uppercase; }
-main h4 {
-  text-transform: capitalize; }
+main {
+  height: 45%; }
+  main h2 {
+    text-align: center; }
+  main p {
+    text-transform: uppercase; }
+  main h4 {
+    text-transform: capitalize; }
 
 footer {
-  background-color: #0f3e57; }
+  background-color: #0f3e57;
+  text-align: center;
+  height: 25%; }
   footer h3 {
     color: white; }
   footer li {
