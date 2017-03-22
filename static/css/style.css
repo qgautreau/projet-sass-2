@@ -1,7 +1,6 @@
 header {
   background-color: #281400;
-  text-align: center;
-  height: 30%; }
+  text-align: center; }
   header h1 {
     color: white; }
   header p {
@@ -14,21 +13,22 @@ article {
   display: flex;
   flex-direction: column; }
 
-main {
-  height: 45%; }
-  main h2 {
-    text-align: center; }
-  main p {
+main h2 {
+  text-align: center;
+  padding-bottom: 1em; }
+main article {
+  padding-bottom: 1em; }
+  main article p {
     text-transform: uppercase; }
-  main h4 {
+  main article h4 {
     text-transform: capitalize; }
 
 footer {
   background-color: #0f3e57;
-  text-align: center;
-  height: 25%; }
-  footer h3 {
-    color: white; }
+  text-align: center; }
+  footer h4 {
+    color: white;
+    text-transform: capitalize; }
   footer li {
     color: #4e6a78; }
   footer button {

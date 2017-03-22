@@ -3,7 +3,6 @@
 header {
     background-color: $header-color;
     text-align: $header-align;
-    height: 30%;
     h1 {
         color: $header-titles;
     }
@@ -19,15 +18,18 @@ header {
 @import "main";
 
 main {
-    height: 45%;
     h2 {
         text-align: center;
+        padding-bottom: 1em;
     }
-    p {
-        text-transform: uppercase;
-    }
-    h4 {
-        text-transform: capitalize;
+    article{
+        padding-bottom: 1em;
+        p {
+            text-transform: uppercase;
+        }
+        h4 {
+            text-transform: capitalize;
+        }
     }
 }
 @import "footer";
@@ -35,9 +37,9 @@ main {
 footer {
     background-color: $primary-color;
     text-align: center;
-    height: 25%;
-    h3 {
+    h4 {
         color: $titles-color;
+        text-transform: capitalize;
     }
     li {
         color: $nav-color;
